@@ -1,0 +1,8 @@
+{
+ "@context": "http://transformer.io/context/transformer.jsonld",
+ "type": "conversion",
+ "input": "hex",
+ "output": "buffer",
+ "id": "hex-to-buffer",
+ "description": "hex to buffer"
+}
