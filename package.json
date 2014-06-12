@@ -1,6 +1,6 @@
 {
   "name": "transformer.hex-to-buffer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "transformer conversion: hex to buffer",
   "main": "index.js",
   "transformer": "transformer.jsonld",
@@ -12,9 +12,10 @@
     "transformer-conversion"
   ],
   "dependencies": {
-    "transformer.hex": "0.0.1",
+    "transformer-conversion": "^0.1.2",
+    "transformer-test": "^0.1.0",
     "transformer.buffer": "0.0.1",
-    "dat-transformer": "~0.1.5"
+    "transformer.hex": "0.0.1"
   },
   "devDependencies": {},
   "repository": {

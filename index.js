@@ -1,9 +1,9 @@
-var transformer = require('dat-transformer');
-var tHex = transformer('hex');
-var tBuffer = transformer('buffer');
+var Conversion = require('transformer-conversion');
+var tHex = require('transformer.hex');
+var tBuffer = require('transformer.buffer');
 // require any other modules you may need here.
 
-module.exports = transformer.Conversion(tHex, tBuffer, convert);
+module.exports = Conversion(tHex, tBuffer, convert);
 
 function convert(input) {
   return new Buffer(input, 'hex');
